@@ -83,4 +83,4 @@ while (totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays < NUM_OF_WORKING_DAYS
     empDailyWageArr.push(calcDailyWage(empHrs));
 }
 empWage = calcDailyWage(totalEmpHrs);
-console.log("Total Days: " + totalWorkingDays + " Total Hrs: " + totalEmpHrs + " Emp Wage: " + empWage);
+console.log("UC6-Total Days: " + totalWorkingDays + " Total Hrs: " + totalEmpHrs + " Emp Wage: " + empWage);
